@@ -16,7 +16,6 @@ builder.Services.AddHttpClient("Finance-news",option =>
 });
 
 builder.Services.AddTransient<IFinanceNews, FinanceNewsService>();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
